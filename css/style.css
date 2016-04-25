@@ -127,7 +127,7 @@ div {
 /*------------------------------------
 Контент на странице catalog-item.html
 --------------------------------------*/
-.item-info-left {
+.item-slider {
   float: left;
   width: 460px;
 }
@@ -150,16 +150,17 @@ div {
   float: right;
   width: 700px;
   margin-left: 10px;
-  font-size: 0px;
 }
 
 .items {
-  padding: 0px;
+  font-size: 0px;
 }
 
 .item {
   display: inline-block;
+  vertical-align: top;
   width: 213px;
+  min-height: 286px;
   margin: 10px;
   font-size: 14px;
   outline: 1px solid blue;

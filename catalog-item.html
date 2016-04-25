@@ -11,7 +11,7 @@
         <nav class="main-navigation">
           <ul>
             <li>
-              <img src="img/header-logo.png" width="111" height="24" alt="Лого Барбершоп">
+              <a href="./index.html"><img src="img/header-logo.png" width="111" height="24" alt="Лого Барбершоп"></a>
             </li>
             <li>
               <a href="#">Информация</a>
@@ -23,10 +23,10 @@
               <a href="#">Прайс-лист</a>
             </li>
             <li>
-              <a href="#">Магазин</a>
+              <a href="./catalog.html">Магазин</a>
             </li>
             <li>
-              <a href="#">Контакты</a>
+              <a href="#contacts">Контакты</a>
             </li>
           </ul>
         </nav>
@@ -38,28 +38,32 @@
 
     <main class="container">
       <div class="breadcrumbs">
-        <h1>Набор для путешествий "'Baxter of California'"</h1>
+        <h1>Набор для путешествий "Baxter of California"</h1>
         <ul>
           <li>
-            <a href="#">Главная</a>
+            <a href="./index.html">Главная</a>
           </li>
           <li>
-            <a href="#">Магазин</a>
+            <a href="./catalog.html">Магазин</a>
           </li>
           <li>
             <a href="#">Средства для ухода</a>
           </li>
           <li>
-            <a href="#">Набор для путешествий "Baxter of California"</a>
+            Набор для путешествий "Baxter of California"
           </li>
         </ul>
       </div>
       <div class="item-info clearfix">
-        <div class="item-info-left">
-          <img class="img-item" src="img/catalog-photo1.jpg" width="460" height="500" alt="Набор для путешествий 'Baxter of California'">
-          <img class="img-item-preview" src="img/catalog-photo2.jpg" width="140" height="149" alt="Набор для путешествий 'Baxter of California'">
-          <img class="img-item-preview" src="img/catalog-photo3.jpg" width="140" height="149" alt="Набор для путешествий 'Baxter of California'">
-          <img class="img-item-preview" src="img/catalog-photo0.jpg" width="140" height="149" alt="Набор для путешествий 'Baxter of California'">
+        <div class="item-slider">
+          <div class="view-port">
+            <img class="img-item" src="img/catalog-photo1.jpg" width="460" height="500" alt="Набор для путешествий 'Baxter of California'">
+          </div>
+          <div class="controls">
+            <img class="img-item-preview" src="img/catalog-photo2.jpg" width="140" height="149" alt="Набор для путешествий 'Baxter of California'">
+            <img class="img-item-preview" src="img/catalog-photo3.jpg" width="140" height="149" alt="Набор для путешествий 'Baxter of California'">
+            <img class="img-item-preview" src="img/catalog-photo0.jpg" width="140" height="149" alt="Набор для путешествий 'Baxter of California'">
+          </div>
         </div>
         <div class="item-info-right">
           <span class="item-availability">Есть в наличии</span>
@@ -69,8 +73,10 @@
             что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем,
             крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.
           </p>
-          <span class="item-price">2 900 руб.</span>
-          <a class="btn-buy">Купить</a>
+          <div class="buy">
+            <span class="item-price">2 900 руб.</span>
+            <a class="btn-buy">Купить</a>
+          </div>
 
           <div class="item-content">
             <h2 class="item-content-title">В набор входят:</h2>
@@ -98,7 +104,7 @@
 
     <footer class="main-footer">
       <div class="container clearfix">
-        <section class="footer-contacts">
+        <section class="footer-contacts" id="contacts">
           Барбершоп «Бородинский»<br>
           Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
           <a href="#">Как нас найти?</a><br>
